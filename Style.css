@@ -1,5 +1,9 @@
 body{
+<<<<<<< HEAD
+    background-image: url('./bahan/1.jpg');
+=======
     background-image: url('./pweb/1.jpg');
+>>>>>>> b80e2b95aab1055bc5106066e71888acbcfe4dfb
     margin: 0%;
     height: 100%;
     background-position: top;
@@ -84,6 +88,10 @@ section#login_wrapper {
 }
 
 .button-login{
+<<<<<<< HEAD
+    display: flex;
+=======
+>>>>>>> b80e2b95aab1055bc5106066e71888acbcfe4dfb
     background-color: rgb(16, 36, 211);
     color: white;
     width: 50%;
@@ -91,7 +99,13 @@ section#login_wrapper {
     border: 0 ;
     border-radius: 10px;
     cursor: pointer;
+<<<<<<< HEAD
+    justify-content: center;
+    margin: 0 auto;
+}
+=======
     align-items: center;
 }
 #Projek-pweb
 #Projek-pweb
+>>>>>>> b80e2b95aab1055bc5106066e71888acbcfe4dfb

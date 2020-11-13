@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div>
+        <ul class="List-menu"> 
+            <li><b href="About">About</b></li>
+            <li><b href="Home">Home</b></li>
+        </ul>
+        <div>
+            <center>
+                <h1>Form Pemesanan</h1>
+            </center>
+        </div>
+        <form>
+            <fieldset>
+                <div class="Menu1">
+                    <p>
+                        <tr>
+                            <td><b>Nama :</b></b></td>
+                        </tr>
+                    </p>
+                    <p>
+                        <tr>
+                            <td><input placeholder="Nama" size="20"></td>
+                        </tr>
+                    </p>
+                    <p>
+                        <tr>
+                            <td><b>Jenis Kelamin :<b></b></td>
+                        </tr>
+                    </p>
+                    <p>
+                        <tr>
+                            <td><input placeholder="Jenis Kelamin" size="20"></td>
+                        </tr>
+                    </p>
+                    <p>
+                        <tr>
+                            <td><b>Tanda Pengenal :<b></b></td>
+                        </tr>
+                    </p>
+                    <p>
+                        <tr>
+                            <td><input placeholder="Tanda Pengenal" size="20"></td>
+                        </tr>
+                    </p>
+                </div>
+                <div class="menu2">
+                    <p>
+                        <tr>
+                            <td><b>Pilih Pembayaran</b></td>
+                        </tr>
+                    </p>
+                    <p>
+                        <input type="radio" id="Paypal" name="Pay" value="Paypal">
+                        <label for="Paypal">Paypal</label><br>
+                    </p>
+                    <p>
+                        <input type="radio" id="Visa" name="Pay" value="Visa">
+                        <label for="Visa">Visa</label><br>
+                    </p>
+                    <p>
+                        <input type="radio" id="ATM" name="Pay" value="ATM">
+                        <label for="ATM">ATM</label><br>
+                    </p>
+                </div>
+            </fieldset>
+            <div>
+                <button class="button m_1">ORDER</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
