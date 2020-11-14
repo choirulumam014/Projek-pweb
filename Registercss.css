@@ -8,23 +8,28 @@ body{
 h2{
     color: white;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: grey;
+header {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    z-index: 99;
+    background: rgba(68, 65, 65, 0.918);
 }
-li {
-    float: right;
+
+.nav-right {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
-li b {
-    font-size: 20pt;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px;
+
+.nav-right li {
     text-decoration: none;
+    list-style: none;
+}
+
+.nav-right li a {
+    text-decoration: none;
+    font-size: 20px;
 }
 input{
     width: 100%;
@@ -82,15 +87,19 @@ section#login_wrapper {
     text-align: center;
 }
 
-.button-login{
+.link-button{
     display: flex;
     background-color: rgb(16, 36, 211);
-    color: rgb(255, 254, 254);
+    color: white;
     width: 50%;
     padding: 12px 5px;
-    border: 0 ;
+    border: none ;
     border-radius: 10px;
     cursor: pointer;
     justify-content: center;
     margin: 0 auto;
+    text-decoration: none;
+    font-size: 15px;
+
 }
+

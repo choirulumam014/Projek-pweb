@@ -38,6 +38,7 @@ header {
 }
 
 .order2 {
+    display: flex;
     padding: 10px 48px;
     border-radius: 10px;
     font-size: 20px;
@@ -45,6 +46,8 @@ header {
     cursor: pointer;
     color: white;
     background-color: blue;
+    justify-content: center;
+    text-decoration: none;
 }
 
 .order2:hover {
